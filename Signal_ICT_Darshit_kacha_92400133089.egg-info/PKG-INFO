@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: Signal-ICT-Darshit-kacha-92400133089
+Version: 0.1.0
+Summary: Modular signal processing toolkit for ICT coursework
+Author: Darshit Kacha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: License.txt

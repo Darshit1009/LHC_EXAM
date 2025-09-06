@@ -1,0 +1,11 @@
+License.txt
+setup.py
+Signal_ICT_Darshit_kacha_92400133089/__init__.py
+Signal_ICT_Darshit_kacha_92400133089/operations.py
+Signal_ICT_Darshit_kacha_92400133089/trignometric_signals.py
+Signal_ICT_Darshit_kacha_92400133089/unitary_signals.py
+Signal_ICT_Darshit_kacha_92400133089.egg-info/PKG-INFO
+Signal_ICT_Darshit_kacha_92400133089.egg-info/SOURCES.txt
+Signal_ICT_Darshit_kacha_92400133089.egg-info/dependency_links.txt
+Signal_ICT_Darshit_kacha_92400133089.egg-info/requires.txt
+Signal_ICT_Darshit_kacha_92400133089.egg-info/top_level.txt
