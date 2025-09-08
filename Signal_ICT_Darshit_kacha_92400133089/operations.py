@@ -7,13 +7,14 @@ def time_shift(signal, k):
     Positive k shifts right, negative k shifts left.
     """
     shifted = np.roll(signal, k)
-    plt.stem(range(len(shifted)), shifted, use_line_collection=True)
+    plt.stem(range(len(shifted)), shifted)
     plt.title(f"Time-Shifted Signal (k = {k})")
     plt.xlabel("n")
     plt.ylabel("Amplitude")
     plt.grid(True)
     plt.show()
     return shifted
+
 
 def time_scale(signal, k):
     """
@@ -25,7 +26,7 @@ def time_scale(signal, k):
     
     scaled = np.zeros(len(signal) * k)
     scaled[::k] = signal
-    plt.stem(range(len(scaled)), scaled, use_line_collection=True)
+    plt.stem(range(len(scaled)), scaled)
     plt.title(f"Time-Scaled Signal (k = {k})")
     plt.xlabel("n")
     plt.ylabel("Amplitude")
@@ -42,7 +43,7 @@ def signal_addition(signal1, signal2):
     s1 = np.pad(signal1, (0, max_len - len(signal1)))
     s2 = np.pad(signal2, (0, max_len - len(signal2)))
     added = s1 + s2
-    plt.stem(range(max_len), added, use_line_collection=True)
+    plt.stem(range(max_len), added)
     plt.title("Signal Addition")
     plt.xlabel("n")
     plt.ylabel("Amplitude")
@@ -59,7 +60,7 @@ def signal_multiplication(signal1, signal2):
     s1 = np.pad(signal1, (0, max_len - len(signal1)))
     s2 = np.pad(signal2, (0, max_len - len(signal2)))
     multiplied = s1 * s2
-    plt.stem(range(max_len), multiplied, use_line_collection=True)
+    plt.stem(range(max_len), multiplied)
     plt.title("Signal Multiplication")
     plt.xlabel("n")
     plt.ylabel("Amplitude")
